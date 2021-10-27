@@ -13,5 +13,6 @@ public class Main extends StringSeparator{
         getSymbolsWithoutSpace(inputString);
         getStringOddOrOddness(inputString);
         compareStringLengthToMaxLength(inputString, maxLength);
+        reader.close();
     }
 }
