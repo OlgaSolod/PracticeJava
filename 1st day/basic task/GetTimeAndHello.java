@@ -1,6 +1,5 @@
 
 import java.time.LocalTime;
-import java.util.HashMap;
 
 public class GetTimeAndHello extends TimeOfDay {
     private static String username = "SpottyPython";
