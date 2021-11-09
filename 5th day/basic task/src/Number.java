@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 public class Number {
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -11,7 +12,7 @@ public class Number {
                 System.out.println("Вы ввели отрицательное число");
             } else if (num > 99) {
                 System.out.println("Вы ввели трехзначное число");
-            } else if (num >0 && num < 9){
+            } else if (num >= 0 && num <= 9) {
                 System.out.println("Вы ввели однозначное число");
             }
         } catch (IOException e) {
