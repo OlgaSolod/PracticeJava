@@ -11,6 +11,8 @@ public class Number {
                 System.out.println("Вы ввели отрицательное число");
             } else if (num > 99) {
                 System.out.println("Вы ввели трехзначное число");
+            } else if (num >0 && num < 9){
+                System.out.println("Вы ввели однозначное число");
             }
         } catch (IOException e) {
             System.out.println("Вы ввели не число");
